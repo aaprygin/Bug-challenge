@@ -1,0 +1,68 @@
+# Bug Report: First Name and Last Name Are Reversed on Dashboard
+
+---
+
+## Bug ID:
+UI-003
+
+---
+
+## Title:
+First Name and Last Name Are Reversed on Dashboard After Adding a New Employee
+
+---
+
+## Application:
+Paylocity Benefits Dashboard
+
+---
+
+## Description:
+On the main dashboard, the employee table displays the first name and last name reversed for all employees. Additionally, when a new employee is added using the "Add Employee" form, their first name and last name are swapped in the table, even though the input in the form was correct.
+
+---
+
+## Steps to Reproduce:
+### Issue 1: Names Reversed in Existing Employee Table
+1. Log in to the Paylocity Benefits Dashboard as an employer.
+2. Observe the employee table on the main dashboard.
+3. Note that the first name and last name are reversed for all employees.
+
+### Issue 2: Names Reversed After Adding a New Employee
+1. Log in to the Paylocity Benefits Dashboard as an employer.
+2. Click the "Add Employee" button.
+3. Enter valid data in the "First Name" and "Last Name" fields (e.g., First Name: "Tony", Last Name: "Stark").
+4. Click "Save" to add the employee.
+5. Observe the employee table, where the first name and last name are swapped (e.g., Last Name: "Tony", First Name: "Stark").
+
+---
+
+## Expected Result:
+1. The employee table should display names correctly, with the first name in the "First Name" column and the last name in the "Last Name" column.
+2. After adding a new employee, their name should display in the correct columns as entered in the form.
+
+---
+
+## Actual Result:
+1. The employee table displays all names with the first name in the "Last Name" column and the last name in the "First Name" column.
+2. After adding a new employee, their first name and last name are swapped in the table, despite being entered correctly in the form.
+
+---
+
+## Severity:
+- **Major** (Impacts data accuracy and user trust).
+
+---
+
+## Environment:
+- **OS**: macOS 15.1 (24B83)  
+- **Browser**: Google Chrome Version 131.0.6778.265 (Official Build) (arm64)  
+- **Device**: MacBook Pro M2 2022  
+
+---
+
+## Additional Details:
+- **URL**: [Paylocity Dashboard](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login)
+- **Screenshots:**
+  ![Names Reversed in Table](../screenshots/BUG-UI-003.png)  
+  
