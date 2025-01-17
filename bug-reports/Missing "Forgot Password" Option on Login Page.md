@@ -54,4 +54,4 @@ No "Forgot Password" option is present on the login page, making it impossible f
 ## Additional Details:
 - **URL**: [Login Page](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login)
 - **Screenshots:**
-  ![Login Page Missing Forgot Password](../screenshots/BUG-UI-001)
+  ![Login Page Missing Forgot Password](../screenshots/BUG-UI-001.png)
